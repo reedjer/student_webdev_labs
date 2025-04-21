@@ -30,8 +30,9 @@
   }
   
   .img {
+    border-radius: 50%; 
     display: block;
-    margin: 0 auto;
+    margin: 10 auto;
     width: 200px;
     height: 200px;
   }
@@ -87,7 +88,7 @@
   
   .image {
     border-radius: 50%;
-    display: block;
+    
     margin: auto;
   }
   

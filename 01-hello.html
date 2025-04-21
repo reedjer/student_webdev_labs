@@ -15,8 +15,9 @@
       <section>
         <img
           class="img"
-          src="../images/SelfPortrait Shadow.jpeg"
-          width="200"
+          src="HW_1/images.png/SelfPortrait Shadow.jpeg"
+          alt="SelfPortrait"
+          width="300"
           height="200" />
         <p class="bio">
           My name is Jeremy Reed, and I am in the Bridge Program at PSU 
@@ -25,17 +26,15 @@
       </section>
       <hr />
       <section>
-        <REPLACE_ME class="sub-title">About PSU</REPLACE_ME>
-        <REPLACE_ME class="greeting-message">
+        <h1 class="sub-title">About PSU</h1>
+        <h3 class="greeting-message">
           Welcome to
-          <REPLACE_ME class="greeting-italic"
-            >The School of Engineering at
-          </REPLACE_ME>
-          <REPLACE_ME class="greeting-emphasis"
-            >Portland State University</REPLACE_ME
-          >
-        </REPLACE_ME>
-        <img class="img" src="../images/psu-eb.jpg" alt="..." />
+          <span class="greeting-italic"
+          >The School of Engineering at
+          <span class="greeting-emphasis"
+            >Portland State University</h5>
+        </h3>
+        <img class="img" src="../images/psu-eb.jpg" alt="Campus Building - Engineering Dept" />
         <p class="general-text engineering-building-description">
           The Engineering Building is a concrete and glass, five-story building
           located on SW 4th Avenue just south of the Fourth Avenue Building and
@@ -46,18 +45,17 @@
         </p>
       </section>
       <section>
-        <REPLACE_ME class="sub-title">New Student Orientation</REPLACE_ME>
-        <REPLACE_ME class="general-text">
+        <h2 class="sub-title" New Student Orientation>
+        <p class="general-text">
           New Student Orientation is an essential part of your undergraduate
-          college experience, provides a foundation for success, and is
-          <REPLACE_ME class="boldfaced-text">
+          college experience, provides a foundation for success, and is 
+        </p>
+          <span class="boldfaced-text">
             required for all incoming undergraduate students.
-          </REPLACE_ME>
-          New Student Orientation will provide you with details about campus
+          <p> New Student Orientation will provide you with details about campus
           life, student services, degree requirements, and, upon completion,
           will provide you with course registration access for your first term.
-        </REPLACE_ME>
-        <REPLACE_ME class="general-text">
+        <p class="general-text">
           View
           <a
             href="https://www.pdx.edu/admissions/deadlines#enrollment-confirmation"
@@ -65,70 +63,66 @@
           >
           and other
           <a href="https://www.pdx.edu/admissions/deadlines">Important Dates</a>
-        </REPLACE_ME>
+        </h4>
       </section>
-      <REPLACE_ME class="sub-title">Application Information</REPLACE_ME>
-      <REPLACE_ME class="general-grouped-info">
-        <REPLACE_ME class="sub-sub-title"
-          >Submit Your Application and $60 Application Fee</REPLACE_ME
-        >
-        <REPLACE_ME class="general-text">
+      <h5 class="sub-title">Application Information</h5>
+      <h6 class="general-grouped-info">
+        <h7 class="sub-sub-title"
+          >Submit Your Application and $60 Application Fee</h7>
+        <h8 class="general-text">
           Go to Portland State University's online application system and select
           Create Account. If you have already started an application, or created
           one for a past term, select Log In.
-        </REPLACE_ME>
-        <REPLACE_ME class="general-text">
+        </h8>
+        <h9 class="general-text">
           Undergraduate applicants may be eligible for a waiver of their $60
           admission application fee. Based on the information you provide in
           your application, we will determine if you are eligible for a fee
           waiver.
-        </REPLACE_ME>
-      </REPLACE_ME>
-      <REPLACE_ME class="general-grouped-info">
-        <REPLACE_ME class="sub-sub-title"
-          >Submit Transcripts from All Schools Attended</REPLACE_ME
-        >
-        <REPLACE_ME class="general-text">
+        </h9>
+      </h6>
+      <h10 class="general-grouped-info">
+        <p class="sub-sub-title" >Submit Transcripts from All Schools Attended
+        <span class="general-text">
           You are required to submit individual transcripts from each college or
           university where you registered for any coursework. Failure to submit
           individual transcripts from each college or university attended may
           result in a delayed admission decision. Official transcripts are
           required from all the schools you've attended, see our official
           records policy for details.
-        </REPLACE_ME>
-        <REPLACE_ME class="general-text">
+        </span>
+        <h11 class="general-text">
           Failure to disclose all colleges is a violation of Portland State
           University's student code of conduct.
-        </REPLACE_ME>
-      </REPLACE_ME>
-      <REPLACE_ME class="general-grouped-info">
+        </h11>
+      </h10>
+      <p class="general-grouped-info">
         <REPLACE_ME class="sub-sub-title"
           >Submit the Free Application for Federal Student Aid
           (FAFSA)</REPLACE_ME
         >
-        <REPLACE_ME class="general-text">
+        <p class="general-text">
           Submission of the FAFSA is not required to receive an admission
           decision. We encourage students to submit the FAFSA as soon as
           possible after October 1.
-        </REPLACE_ME>
-      </REPLACE_ME>
-      <REPLACE_ME class="general-grouped-info">
-        <REPLACE_ME class="sub-sub-title"
-          >Check Your Application Status</REPLACE_ME
-        >
-        <REPLACE_ME class="general-text">
+        </p>
+      </p>
+      <h8 class="general-grouped-info">
+        <p class="sub-sub-title"
+          >Check Your Application Status</p>
+        <p class="general-text">
           If you have submitted an application to Portland State University, you
           can log in to PSU's application portal to review the status of your
           application. You will be notified via email for each document you
           submit and your admission decision.
-        </REPLACE_ME>
-      </REPLACE_ME>
+        </p>
+      </>
       <section>
-        <REPLACE_ME class="sub-title">Submit your Information</REPLACE_ME>
+        <div class="sub-title">Submit your Information</div>
         <form>
-          <div>Name</div>
+          <label>for="username"</label>
           <input type="text" />
-          <div>Email</div>
+          <label>Email</label>
           <input type="text" />
           <div>Region</div>
           <input type="text" />
@@ -137,7 +131,7 @@
           </div>
           <div class="radio-buttons">
             <div>Plan type</div>
-            <input type="radio" />
+            <input type="radio" id="basic" />
             <label for="basic">Basic</label>
             <input type="radio" />
             <label for="business">Business</label>
